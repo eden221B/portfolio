@@ -45,7 +45,7 @@ body {
     height: 820px;
   }
   .typewriter {
-    font-size: 3.8rem;
+    font-size: 5.8rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #fefae0;
     white-space: nowrap;
@@ -56,7 +56,7 @@ body {
     margin-top: 20px;
     display: inline-block;
     position: absolute;
-    top: 740px;
+    top: 790px;
     left : 0px;
   }
   
@@ -121,16 +121,25 @@ body {
   
   /* Intro */
   .intro {
-    background-color: #faedcd;
-    border-left: 10px solid #dda15e;
+    background-color: black;
+    height: 30px;
   }
   
   .intro p {
-    font-size: 1.1rem;
-    max-width: 800px;
+    font-size: 1.5rem;
+    width: 1000px;
+    position: relative;
+    bottom: 80px;
+    color: aliceblue;
   }
   
   /* Education */
+
+  .education {
+    
+    font-size: 1.4rem;
+  }
+
   .education ul {
     list-style: none;
     padding-left: 0;
@@ -140,6 +149,8 @@ body {
     margin: 15px 0;
     padding-left: 15px;
     border-left: 5px solid #bc6c25;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
   
   /* Projects */
@@ -167,20 +178,84 @@ body {
     transform: scale(1.03);
   }
   
-  /* Skills */
-  .skills-block {
-    margin-top: 20px;
+
+
+  .skills {
+    background-color: #2d3a2e; /* Dark green */
+    color: #fff;
+    padding: 40px;
+    font-family: sans-serif;
+    position: relative;
+    bottom:470px;
+    padding-left: 160px;
+    width:800px;
   }
   
-  .skills-block h3 {
-    color: #bc6c25;
+  .skills h2 {
+    color: #f4a261; 
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  
+  .skills-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .skills-column {
+    flex: 1;
+    min-width: 250px;
+    font-size: 1.4rem;
+  }
+  
+  .skills-column h3 {
+    color: #ffffff;
     margin-bottom: 10px;
+    font-size: 30px;
   }
   
-  .skills-block ul {
-    list-style: disc;
-    padding-left: 20px;
+  .software-icons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
   }
+  
+  .icon {
+    background: #f4f4f4;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  
+  .coding-skills {
+    margin-top: 8px;
+  }
+  
+  .coding-skills span {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 4px;
+    font-size: 14px;
+  }
+  
+  .tags {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .tag {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-size: 14px;
+  }
+  
   
   /* Certifications, Extras, Hobbies */
   .certifications ul,
@@ -188,6 +263,27 @@ body {
   .hobbies ul {
     list-style: square;
     padding-left: 20px;
+  }
+
+  .certifications {
+    
+    font-size: 1.4rem;
+    position: relative;
+    left: 970px;
+    bottom:200px;
+  }
+
+  .certifications ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .certifications li {
+    margin: 15px 0;
+    padding-left: 15px;
+    border-left: 5px solid #bc6c25;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
   
   /* Footer */
