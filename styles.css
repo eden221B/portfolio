@@ -121,8 +121,8 @@ body {
   
   /* Intro */
   .intro {
-    background-color: black;
-    height: 30px;
+    background-color: #0d0d0d;
+    height: 135px;
   }
   
   .intro p {
@@ -132,6 +132,19 @@ body {
     bottom: 80px;
     color: aliceblue;
   }
+
+  /* GIF */
+ 
+  
+  .my-video {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: 735px;
+    right: 120px;
+  }
+  
   
   /* Education */
 
